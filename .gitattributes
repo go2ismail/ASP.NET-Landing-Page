@@ -1,5 +1,6 @@
 ﻿*.css linguist-vendored
 *.html linguist-vendored
 *.htm linguist-vendored
+*.cshtml linguist-vendored
 *.php linguist-vendored
 *.js linguist-vendored
