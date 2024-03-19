@@ -9,6 +9,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
+    <File Include="README.md">
+      <publishTime>03/19/2024 13:02:06</publishTime>
+    </File>
     <File Include="wwwroot/landing-page.png">
       <publishTime>03/19/2024 12:40:22</publishTime>
     </File>
