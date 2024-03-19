@@ -3,6 +3,7 @@ Explore ASP.NET Landing Page, an open-source project offering a stunning and cus
 
 ![ASP.NET Landing Page](wwwroot/landing-page.png)
 
-Live Demo Link: [ASP.NET Landing Page](https://landingpage.csharpasp.net/){:target="_blank"}
+Live Demo Link: [https://landingpage.csharpasp.net/](https://landingpage.csharpasp.net/){:target="_blank"}
+
 
 
