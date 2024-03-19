@@ -1,0 +1,7 @@
+C:\_my_open_source\asp_net_landing_page\Indotalent\obj\Release\net8.0\PubTmp\Out\Indotalent.exe
+C:\_my_open_source\asp_net_landing_page\Indotalent\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\_my_open_source\asp_net_landing_page\Indotalent\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\_my_open_source\asp_net_landing_page\Indotalent\obj\Release\net8.0\PubTmp\Out\Indotalent.dll
+C:\_my_open_source\asp_net_landing_page\Indotalent\obj\Release\net8.0\PubTmp\Out\Indotalent.deps.json
+C:\_my_open_source\asp_net_landing_page\Indotalent\obj\Release\net8.0\PubTmp\Out\Indotalent.runtimeconfig.json
+C:\_my_open_source\asp_net_landing_page\Indotalent\obj\Release\net8.0\PubTmp\Out\Indotalent.pdb

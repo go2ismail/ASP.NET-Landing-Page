@@ -1,0 +1,39 @@
+﻿@{
+    var currentCshtmlName = ViewData["CshtmlName"]?.ToString() ?? string.Empty;
+}
+
+<div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+        <a asp-area="" asp-page="/Index" class="navbar-brand p-0">
+            <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>ASP.NET</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a asp-area="" asp-page="/Index" class="nav-item nav-link @(currentCshtmlName.Equals("") ? "active" : "")">Home</a>
+                <a asp-area="" asp-page="/About" class="nav-item nav-link @(currentCshtmlName.Equals("About") ? "active" : "")">About</a>
+                <a asp-area="" asp-page="/Services" class="nav-item nav-link @(currentCshtmlName.Equals("Services") ? "active" : "")">Services</a>
+                <a asp-area="" asp-page="/Blog" class="nav-item nav-link @(currentCshtmlName.Equals("Blog") ? "active" : "")">Blog</a>
+                <a asp-area="" asp-page="/Contact" class="nav-item nav-link @(currentCshtmlName.Equals("Contact") ? "active" : "")">Contact</a>
+            </div>
+            <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+            
+        </div>
+    </nav>
+
+    @if (currentCshtmlName == string.Empty)
+    {
+        <!-- Hero Start -->
+        @await Html.PartialAsync("__Hero")
+        <!-- Hero Start -->
+    } else
+    {
+        <!-- Header Start -->
+        @await Html.PartialAsync("__Header")
+        <!-- Header Start -->
+        
+    }
+
+</div>

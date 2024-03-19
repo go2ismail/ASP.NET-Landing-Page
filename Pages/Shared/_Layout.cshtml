@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ASP.NET Landing Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    @await Html.PartialAsync("__css")
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    @await Html.PartialAsync("__Topbar")
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Carousel Start -->
+    @await Html.PartialAsync("__Navbar")
+    <!-- Navbar & Carousel End -->
+
+
+    <!-- Full Screen Search Start -->
+    @await Html.PartialAsync("__FullScreenSearch")
+    <!-- Full Screen Search End -->
+
+
+    @RenderBody()
+    
+
+    <!-- Footer Start -->
+    @await Html.PartialAsync("__Footer")
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    @await Html.PartialAsync("__js")
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

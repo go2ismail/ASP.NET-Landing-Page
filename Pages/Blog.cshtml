@@ -1,0 +1,14 @@
+﻿@page
+@model Indotalent.Pages.BlogModel
+@{
+}
+
+<!-- Facts Start -->
+@await Html.PartialAsync("__FactCounter")
+<!-- Facts Start -->
+<!-- Service Start -->
+@await Html.PartialAsync("__Blog")
+<!-- Service End -->
+<!-- Vendor Start -->
+@await Html.PartialAsync("__Vendor")
+<!-- Vendor End -->
