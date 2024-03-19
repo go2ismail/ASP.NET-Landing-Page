@@ -1,10 +1,4 @@
-﻿wwwroot/* linguist-vendored
-wwwroot/css/* linguist-vendored
-wwwroot/js/* linguist-vendored
-wwwroot/lib/* linguist-vendored
-wwwroot/landingpage/css/* linguist-vendored
-wwwroot/landingpage/js/* linguist-vendored
-wwwroot/landingpage/lib/* linguist-vendored
+﻿/wwwroot/* linguist-vendored
 *.cshtml linguist-language=C#
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
